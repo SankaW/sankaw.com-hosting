@@ -1,0 +1,26 @@
+[
+    {
+        "ID": 1,
+        "Date ": null,
+        "Institute ": "AWS",
+        "Name": "AWS Certified Data Analytics – Specialty",
+        "Link": "https://www.credly.com/badges/bba0bb9b-02cb-4468-a943-6c5d92d5a0e1/linked_in_profile",
+        "Category": null
+    },
+    {
+        "ID": 2,
+        "Date ": null,
+        "Institute ": "AWS",
+        "Name": "AWS Certified Solutions Architect – Associate",
+        "Link": "https://www.credly.com/badges/d093c0d5-5324-43a7-b03d-549cf7538355/linked_in_profile",
+        "Category": null
+    },
+    {
+        "ID": 12,
+        "Date ": null,
+        "Institute ": "linkedin learning",
+        "Name": "NoSQL Essential Training",
+        "Link": "https://www.linkedin.com/learning/certificates/6445199e93223fa1cb567e64c043664dc58ceea434242035dd786bcb9074a2fe?u=2212217",
+        "Category": null
+    }
+]

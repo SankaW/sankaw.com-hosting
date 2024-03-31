@@ -1,0 +1,37 @@
+ID,Flag,Technology,Tools,Image_name
+,1,Programming Languages,Python,Python.png
+,1,Programming Languages,SQL,sql.jpg
+,1,Programming Languages,Scala,Scala.png
+,1,Programming Languages,R,R.png
+,1,Databases,PostgreSQL,PostgreSQL.png
+,1,Databases,MySQL,Mysql.png
+,1,Databases,Microsoft SQL Server,microsoft-sql-server.jpg
+,1,Databases,MongoDB,mongodb.webp
+,1,Databases,CouchDB,Couchbase.png
+,1,Databases,Cassandra,Cassandra.png
+,1,Databases,Redis,Redis.png
+,1,Big Data Frameworks,Apache Hadoop,hadoop.png
+,1,Big Data Frameworks,Spark,Apache_Spark.png
+,1,Big Data Frameworks,Databricks,Databricks.png
+,1,Big Data Frameworks,Kafka,kafka.png
+,0,Big Data Frameworks,Flink,
+,1,Cloud Platforms,Snowflake,Snowflake.png
+,1,Cloud Platforms,Amazon Web Services (AWS),Amazon-web-services.png
+,0,Cloud Platforms,Microsoft Azure,Azure.png
+,0,Cloud Platforms,Google Cloud Platform,Google_Cloud_Platform.svg
+,1,Data Pipeline Tools,Apache Airflow,AirflowLogo.png
+,0,Data Pipeline Tools,Luigi,
+,0,Data Pipeline Tools,Prefect,
+,1,Containerization and Orchestration,Docker,Docker.webp
+,0,Containerization and Orchestration,Kubernetes,
+,1,Infrastructure as Code,Terraform,terraform-hashicorp.png
+,1,Infrastructure as Code,AWS CloudFormation,
+,1,Data Visualization Tools,Tableau,tableau.png
+,1,Data Visualization Tools,Power BI,Microsoft-Power-BI.png
+,0,Data Visualization Tools,Apache Superset,
+,1,Version Control,Git,Git.png
+,1,Machine Learning Tools,TensorFlow,
+,1,Machine Learning Tools,PyTorch,
+,1,Data Warehousing,Snowflake,
+,1,Data Warehousing,AWS Redshift,
+,1,Data Warehousing,Microsoft SQL Server,

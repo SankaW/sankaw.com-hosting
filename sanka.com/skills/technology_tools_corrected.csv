@@ -1,0 +1,31 @@
+Technology,Tools
+Programming Languages,Python
+Programming Languages,Java
+Programming Languages,Scala
+Programming Languages,SQL
+Databases,PostgreSQL
+Databases,MySQL
+Databases,Microsoft SQL Server
+Databases,MongoDB
+Databases,Cassandra
+Databases,Redis
+Big Data Frameworks,Apache Hadoop
+Big Data Frameworks,Spark
+Big Data Frameworks,Kafka
+Big Data Frameworks,Flink
+Cloud Platforms,Amazon Web Services (AWS)
+Cloud Platforms,Microsoft Azure
+Cloud Platforms,Google Cloud Platform
+Data Pipeline Tools,Apache Airflow
+Data Pipeline Tools,Luigi
+Data Pipeline Tools,Prefect
+Containerization and Orchestration,Docker
+Containerization and Orchestration,Kubernetes
+Infrastructure as Code,Terraform
+Infrastructure as Code,AWS CloudFormation
+Data Visualization Tools,Tableau
+Data Visualization Tools,Power BI
+Data Visualization Tools,Apache Superset
+Version Control,Git
+Machine Learning Tools,TensorFlow
+Machine Learning Tools,PyTorch
