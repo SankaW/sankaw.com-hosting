@@ -1,2 +1,13 @@
 stats/
 .terraform/
+certifications/*
+!certifications/certifications.js
+resume/*
+!resume/Sanka_weerathunga_resume.pdf
+skills/*
+skills/technology_tools.js
+index1.html
+index-20240814.html
+index.html.bak
+img/
+

@@ -82,7 +82,7 @@
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
             <div class="my-auto">
                 <div class="project-item">
-                    <img src="../img/Child_abuse/happykids6.png" alt="Dashboard Screenshot 1" class="img-fluid mb-3">
+                    <img src="../img/happykids.png" alt="Dashboard Screenshot 1" class="img-fluid mb-3">
                     <h2>A Data-Driven Approach to Understanding Child Abuse in Sri Lanka</h2>
                     <p>Child abuse is a devastating global problem, impacting millions of children every year. Understanding the scope and nature of this issue in Sri Lanka is crucial to developing effective prevention and response strategies. This project utilizes data visualization to make complex data on reported child abuse cases accessible to a wider audience.</p>
                     <div class="subheading mb-3">This project utilizes data visualization to make complex data on reported child abuse cases accessible to a wider audience.</div>

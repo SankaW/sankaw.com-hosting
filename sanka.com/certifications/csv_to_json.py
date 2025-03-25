@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Load the CSV file
-file_path = 'sanka.com/certifications/certifications.csv'
+file_path = 'certifications/certifications.csv'
 df = pd.read_csv(file_path)
 
 # Replace NaN values with None for JSON compatibility
@@ -12,7 +12,7 @@ json_result = df.where(pd.notnull(df), None).to_dict(orient='records')
 js_content = f'var certificationsList = {json.dumps(json_result, indent=4)};'
 
 # Specify the path where you want to save the JS file
-js_output_path = 'sanka.com/certifications/certifications.js'
+js_output_path = 'certifications/certifications1.js'
 with open(js_output_path, 'w') as js_file:
     js_file.write(js_content)
 
