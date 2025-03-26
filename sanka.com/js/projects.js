@@ -28,28 +28,80 @@ const projects = [
   }
 ];
 
-function renderProjects() {
-  const portfolioContainer = document.querySelector('#portfolio .row');
-  if (!portfolioContainer) return;
-
-  portfolioContainer.innerHTML = projects.map(project => `
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100">
-        <a href="${project.link}" target="_blank">
-          <img src="${project.image}" class="card-img-top" alt="${project.title}">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title">${project.title}</h5>
-          <p class="card-text">${project.description}</p>
-          <div class="tech-stack">
-            ${project.technologies.map(tech => `<span class="badge bg-primary me-1">${tech}</span>`).join('')}
-          </div>
-          <small class="text-muted">${project.year}</small>
-        </div>
-      </div>
-    </div>
-  `).join('');
+function createProjectCard(project) {
+  const card = document.createElement('div');
+  card.className = 'col-md-6 col-lg-4 mb-4';
+  
+  const innerCard = document.createElement('div');
+  innerCard.className = 'project-card';
+  
+  // Create project link
+  const projectLink = document.createElement('a');
+  projectLink.href = project.link;
+  projectLink.style.textDecoration = 'none';
+  
+  // Add project image
+  const image = document.createElement('img');
+  image.src = project.image;
+  image.alt = project.title;
+  image.className = 'project-image';
+  
+  // Create content container
+  const content = document.createElement('div');
+  content.className = 'project-content';
+  
+  // Add title
+  const title = document.createElement('h3');
+  title.className = 'project-title';
+  title.textContent = project.title;
+  
+  // Add description
+  const description = document.createElement('p');
+  description.className = 'project-description';
+  description.textContent = project.description;
+  
+  // Create tags container
+  const tagsContainer = document.createElement('div');
+  tagsContainer.className = 'portfolio-tags';
+  
+  // Add tags
+  project.technologies.forEach(tech => {
+    const tagSpan = document.createElement('span');
+    tagSpan.className = 'portfolio-tag';
+    tagSpan.setAttribute('data-type', tech);
+    tagSpan.textContent = tech;
+    tagsContainer.appendChild(tagSpan);
+  });
+  
+  // Add year
+  const year = document.createElement('span');
+  year.className = 'project-year';
+  year.textContent = project.year;
+  
+  // Assemble the card
+  content.appendChild(title);
+  content.appendChild(description);
+  content.appendChild(tagsContainer);
+  content.appendChild(year);
+  
+  projectLink.appendChild(image);
+  projectLink.appendChild(content);
+  
+  innerCard.appendChild(projectLink);
+  card.appendChild(innerCard);
+  
+  return card;
 }
 
-// Initialize projects when DOM is loaded
-document.addEventListener('DOMContentLoaded', renderProjects); 
+function initializePortfolio() {
+  const container = document.querySelector('#portfolio .container .row');
+  if (container) {
+    projects.forEach(project => {
+      const card = createProjectCard(project);
+      container.appendChild(card);
+    });
+  }
+}
+
+// Initialize when the DOM is loaded
+document.addEventListener('DOMContentLoaded', initializePortfolio); 
